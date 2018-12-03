@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatToolbarModule } from '@angular/material/toolbar';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BasicNavbarComponent } from './basic-navbar/basic-navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import {MatButtonModule} from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgModule } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -16,6 +16,7 @@ import { BasicNavbarComponent } from './basic-navbar/basic-navbar.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatButtonModule,
     MatCardModule,
     MatToolbarModule,
     AppRoutingModule

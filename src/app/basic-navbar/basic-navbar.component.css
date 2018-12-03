@@ -1,3 +1,7 @@
-.menu-item {
-    float: right;
+.navbar {
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
 }
