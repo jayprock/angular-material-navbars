@@ -4,3 +4,10 @@
 @import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 /* @import "~@angular/material/prebuilt-themes/purple-green.css"; */
 
+.navbar {
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+}
