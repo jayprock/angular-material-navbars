@@ -3,24 +3,28 @@
   <router-outlet></router-outlet>
   <div class="content-container">
     <div class="column">
-      <mat-card class="navbar-card clickable">
-        <mat-card-header>
-          <mat-card-title>Basic</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>This is a basic navbar. No bells or whistles</p>
-        </mat-card-content>
-      </mat-card>
-    </div>
-    <div class="column">
-        <mat-card class="navbar-card clickable">
+      <a routerLink="/basic" >
+        <mat-card class="navbar-card">
           <mat-card-header>
-            <mat-card-title>Basic + Menus</mat-card-title>
+            <mat-card-title>Basic</mat-card-title>
           </mat-card-header>
           <mat-card-content>
-            <p>This is a basic navbar. It builds off of Basic #1, but it adds menu navbar items </p>
+            <p>This is a basic navbar. No bells or whistles</p>
           </mat-card-content>
         </mat-card>
+      </a>
+    </div>
+    <div class="column">
+        <a routerLink="/basic-menu" >
+          <mat-card class="navbar-card">
+            <mat-card-header>
+              <mat-card-title>Basic + Menus</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>This is a basic navbar. It builds off of Basic #1, but it adds menu navbar items </p>
+            </mat-card-content>
+          </mat-card>
+        </a>
       </div>    
   </div>
 </div>
