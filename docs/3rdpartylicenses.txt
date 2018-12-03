@@ -332,6 +332,8 @@ MIT
 
 @angular/material/button
 
+@angular/material/menu
+
 @angular/material/card
 
 zone.js
